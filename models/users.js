@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const userCollection = 'users';
 
-const userSchema = mongoose.Schema(
+/*const userSchema = mongoose.Schema(
     {
         first_name:String,
         last_name:String,
@@ -10,11 +10,11 @@ const userSchema = mongoose.Schema(
         gender:String,
 
     }
-)
+)*/
 
 //AGREGANDO EL INDEX
 
-/*const userSchema = mongoose.Schema(
+const userSchema = mongoose.Schema(
     {
         first_name:{
             type:String,
@@ -26,7 +26,6 @@ const userSchema = mongoose.Schema(
 
     }
 )
-*/
 
 
 const userModel = mongoose.model(userCollection,userSchema);

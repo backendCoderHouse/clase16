@@ -13,6 +13,7 @@ const enviroment = async () => {
 
 
     //BUSCANDO POR NOMBRE 
+    
     let response = await userModel.find({first_name:"Celia"}).explain('executionStats');
 
     console.log(response)
