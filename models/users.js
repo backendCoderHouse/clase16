@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const userCollection = 'users';
 
-/*const userSchema = mongoose.Schema(
+/*const userSchema =  mongoose.Schema(
     {
         first_name:String,
         last_name:String,

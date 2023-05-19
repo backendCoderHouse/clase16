@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const studentCollection = 'students';
 
-const studentSchema = mongoose.Schema(
+const studentSchema =  mongoose.Schema(
     {
         first_name: String,
         last_name: String,
@@ -28,6 +28,6 @@ const studentSchema = mongoose.Schema(
 
 
 
-const userModel = mongoose.model(studentCollection, studentSchema);
+const studentModel = mongoose.model(studentCollection, studentSchema);
 
-export default userModel;
+export default studentModel;

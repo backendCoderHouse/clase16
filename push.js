@@ -9,13 +9,15 @@ const enviroment = async () => {
         dbName: 'integrador',
     });
 
-    let student = await studentModel.find({_id:""})
+    let student = await studentModel.findOne({_id:"64677e98ac566c95c5b4dba1"})
 
+    //console.log(student);
     
+    student.courses.push({course:"6466b212ebb4de664076316c"});
 
-    student.courses.push({course:""});
+   let result = await studentModel.updateOne({_id:"64677e98ac566c95c5b4dba1"},student)
 
-    let result = await studentModel.updateOne({_id:""},student)
+   console.log(result);
 }
 
 enviroment();

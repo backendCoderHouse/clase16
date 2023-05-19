@@ -12,10 +12,10 @@ const enviroment = async () => {
     let response = await courseModel.create(
 
         {
-            title: "Curso de Backend",
-            description: "Es un curso para aprender a desarrollar servidores de backend con javascript",
-            difficulty: 5,
-            topics:["Javascript","Node js","Mongo DB"],
+            title: "Curso de Backend 2023",
+            description: "Es un curso para aprender a desarrollar servidores de backend con JS",
+            difficulty: 4,
+            topics:["Javascript","Node JS","Mongo DB"],
             profesor: "ChrisDev"
 
         }

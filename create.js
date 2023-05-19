@@ -12,9 +12,9 @@ const enviroment = async () => {
     let response = await studentModel.create(
 
         {
-            first_name: "Leonardo",
-            last_name: "Maximo",
-            email: "leo@mix.com",
+            first_name: "Diego",
+            last_name: "Maradona",
+            email: "diego@el10.com",
             gender: "Male"
 
         }
